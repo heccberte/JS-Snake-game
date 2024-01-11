@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<title>Snake</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="game_icon">
+
+		</div>
+		<div class="main_menu">
+			<div class="game_name">
+				Snake the GAME
+			</div>
+			<div class="menu_nav">
+				Game Start
+			</div>
+			<div onclick="ranking()" class="records">
+				Records
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="level_link">
+			<div id="ez" onclick="easy()" class="level_number">
+				easy
+			</div>
+			<div id="med" onclick="medium()" class="level_number">
+				medium
+			</div>
+			<div id="hrd" onclick="hard()" class="level_number">
+				hard
+			</div>
+			<div id="impsbl" onclick="fast()" class="level_number">
+				impossible
+			</div>
+			<div onclick="location.reload()" class="level_number">
+				Main menu
+			</div>
+		</div>
+	</div>
+
+
+	<script src="./script.js"></script>
+</body>
+</html>
